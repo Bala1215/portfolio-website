@@ -1,0 +1,63 @@
+:root{
+    --primary-color:cadetblue;
+}
+*{
+    cursor: pointer;
+}
+.header{
+    background-color: black;
+    height:10vh;
+    width:100%;
+
+    display: flex;
+    align-items: center;
+    color:#fff;
+
+    /*These three properties are defined to not to move the header while scrolling*/
+    top:0;
+    position: sticky;
+    z-index:2000;
+    /*...*/
+}
+
+.header .header__left{
+    flex:0.4;
+}
+
+.header .header__left h1{
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.header .header__left h1:hover{
+   color : cadetblue;
+}
+
+.header .header__right{
+    flex:0.6;
+    /*it will takes 60% of space in 
+    <div className='header'></div>*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header .header__right a h2{
+    font-size:1.5rem;
+    transition: transform .2s;
+    padding : .25em;
+}
+
+.header .header__right a h2:hover{
+  /* border-bottom: 2px solid rgb(71, 208, 92); */
+
+   /* border: 2px solid var(--primary-color); */
+   border-radius: 20px;
+
+   background-color :cadetblue;
+   color: #fff;
+  
+   transform: scale(1.5);
+}
