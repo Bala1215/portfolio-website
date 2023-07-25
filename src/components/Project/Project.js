@@ -1,63 +1,79 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import "../Project/Project.css";
+import amazonclonepic from "./amazonclonepic.png";
+import emojisearchpic from "./emojisearchpic.jpg";
+import googlekeepclonepic from "./googlekeepclonepic.png";
+import usermanagementpic from "./usermanagementpic.png";
 
 
-
-
-function Skill() {
+function Project() {
   return (
     <Element className="project-container" id="projects">
       <div className='projects-wrapper'>
-        <div className='skill-col'>
+        
+        <div className='project-col'>
             <button>
-                <img className="htmlpic" 
-                src="" alt="HTML5"/>
-                <h3>HTML5</h3>
-
+                <img className="amazonclonepic" 
+                src={amazonclonepic} alt="Amazon Clone"/>
+                <h3>Amazon Clone</h3>
             </button>
+          <div className='project-desc'>
+           <h1>amazon clone</h1>
+           <h3>technology used : react js</h3>
+           <h4>Using useState and useEffect</h4>
+         </div>
         </div>
-        <div className='skill-col'>
-          <button >
-              <img className="csspic" 
-              src="" alt="CSS3"/>
-              <h3>CSS3</h3>
-          </button>
-        </div>
-        <div className='skill-col'>
-          <button>
-           <img className="javascriptpic" 
-           src="" alt="JavaScript"/>
-           <h3>JavaScript</h3>
-          </button>
-        </div>
-        <div className='skill-col'>
-         <button>
-           <img className="javapic" 
-           src="" alt="Core Java"/>
-           <h3>Core Java</h3>
 
-         </button>
-        </div>
-        <div className='skill-col'>
-          <button>
-           <img className="cpic" 
-            src="" alt="C Programming"/>
-            <h3>C Programming</h3>
-                     
+        <div className='project-col'>
+          <button >
+              <img className="usermanagementpic" 
+              src={usermanagementpic} alt="User Management"/>
+              <h3>User Management</h3>
           </button>
+          <div className='project-desc'>
+           <h1>user management</h1>
+           <h3>technology used : react js</h3>
+           <h4>Using useState and useEffect</h4>
+         </div>
         </div>
-        <div className='skill-col'>
+        
+        <div className='project-col'>
           <button>
-          <img className="reactpic" 
-          src="" alt="React Js"/>
-          <h3>React Js</h3>
-        </button>
+           <img className="googlekeepclonepic" 
+           src={googlekeepclonepic} alt="Google Keep Clone"/>
+           <h3>Google Keep Clone</h3>
+          </button>
+          
+          <div className='project-desc'>
+           <h1>google keep clone</h1>
+           <h3>technology used : react js</h3>
+           <h4>Using useState and useEffect</h4>
+          </div>
+        
         </div>
+        
+        <div className='project-col'>
+        <div className="project-info">  
+         <button>
+           <img className="emojisearchpic" 
+           src={emojisearchpic} alt="Emoji Search"/>
+           <h3>Emoji Search</h3>
+         </button>
+         </div>
+
+         <div className='project-desc'>
+           <h1>emoji search</h1>
+           <h3>technology used : react js</h3>
+           <h2>Using useState and useEffect</h2>
+         </div>
+
+        </div>
+       
 
       </div>
     </Element>
   )
 }
 
-export default Skill
+export default Project;

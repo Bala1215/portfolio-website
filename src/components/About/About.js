@@ -7,17 +7,19 @@ function About() {
 
   
   return (
-    <Element classname="about" id="about">
+    <Element className="about" id="about">
       <div className='about__wrapper'>
         <div className='about__name'>
           <h1 id="name">Bala Chellamma V</h1>
           <h3>B.Sc Computer Science Graduate</h3>
           
           <div className='about__button'>
-            {/* <a href='#name'> */}
-              <button className='see' >See Magic</button>
-              {/* <button className='hide'>Hide Magic</button> */}
-            {/* </a> */}
+            <a href='#'>
+              <button className='cv' >Cover Letter</button>
+            </a>  
+            <a href='#'>  
+              <button className='resume'>Resume</button>
+            </a>
           </div>
 
         </div>

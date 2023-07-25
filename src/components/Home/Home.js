@@ -7,7 +7,7 @@ import Beagle from "../Home/beagle.png"
 
 function Home() {
   return (
-    <Element classname="home" id="home">
+    <Element className="home" id="home">
     <div className='home'>
      <div className='home__heading'>
        <h1>PORTFOLIO</h1>

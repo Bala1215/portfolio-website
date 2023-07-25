@@ -3,8 +3,9 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Home from './components/Home/Home';
 import Skill from './components/Skill/Skill';
-import Project from './components/Project/Project';
 import "./App.css"
+import Project1 from './components/Project/Project1';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Home/>
       <About/>
       <Skill/>
-      <Project/>
+      <Project1/>
+      <Contact/>
     </div>
   )
 }

@@ -1,0 +1,115 @@
+.projects-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card{
+    height: 500px;
+    width: 320px;
+    background: #fff;
+    border-radius: 20px;
+    border: 10px solid white ; 
+    overflow: hidden;
+
+    position: relative;
+    object-fit: cover;
+    margin: 10px;
+} 
+
+.project-img{
+    position: absolute;
+
+    /* width: 340px;
+    height: 510px; */
+    width: 100%;
+    height: 50vh;
+    /* border-radius: 5px; */
+    background-color: #fff;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    
+}
+
+.project-info{
+    width: 320px;
+    height: 500px;
+    /* border: 2px solid pink; */
+    border-radius: 15px;
+    background-color: rgba(45, 127, 130, 0.383);
+    color:#000;
+    backdrop-filter: blur(50px);
+
+    position: absolute;
+    top:0;
+    right:-120%;
+    padding: 20px;
+
+    /* display:none; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.project-info h1{
+    color:rgb(50, 91, 92);
+}
+
+.project-info h3 span{
+    color:darkblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-info h1,h3{
+    text-transform: capitalize;
+}
+
+.project-info-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-info-btn .project-btn-1,.project-btn-2{
+     padding: 10px;
+     border-radius: 10px;
+     border: 2px solid rgb(93, 27, 119);
+     outline: none;
+
+     height:50px;
+     width:100px;
+     background-image: linear-gradient(to right,rgba(154, 79, 171, 0.839),rgb(85, 163, 166),skyblue ,rgb(212, 135, 212));
+
+}
+
+.project-card:hover .project-info{
+    /* bottom:25px;
+    right: 10px;
+    left:.5px; */
+    right:0;
+    /* object-fit: cover; */
+}
+
+.project-title{
+    text-transform: capitalize;
+    color:#000;
+    text-align: center;
+    margin: 1.5em;
+}
