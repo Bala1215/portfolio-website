@@ -16,16 +16,16 @@ function Project() {
             <button>
                 <img className="amazonclonepic" 
                 src={amazonclonepic} alt="Amazon Clone"/>
-                <h3>Amazon Clone</h3>
+                <h3>Ecommerce Website</h3>
             </button>
           <div className='project-desc'>
-           <h1>amazon clone</h1>
-           <h3>technology used : react js</h3>
-           <h4>Using useState and useEffect</h4>
+           <h1>Ecommerce Website</h1>
+           <h3>technology used : vanilla js</h3>
+           {/* <h4>Using useState and useEffect</h4> */}
          </div>
         </div>
 
-        <div className='project-col'>
+        {/* <div className='project-col'>
           <button >
               <img className="usermanagementpic" 
               src={usermanagementpic} alt="User Management"/>
@@ -36,7 +36,7 @@ function Project() {
            <h3>technology used : react js</h3>
            <h4>Using useState and useEffect</h4>
          </div>
-        </div>
+        </div> */}
         
         <div className='project-col'>
           <button>

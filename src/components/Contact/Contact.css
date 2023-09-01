@@ -1,21 +1,59 @@
 .contact-wrapper{
     width: 100%;
-    height: 30vh;
-    background-color: cadetblue;
+    height: 50vh;
+    background:cadetblue;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20%;
-    padding: 4em;
+    gap: 20px;
+
 }
 
 .contact-card{
-    border: 2px solid black;
-    height: 100px;
-    width:100px;
-
+    height:200px;
+    width:200px;
+    /* border: 2px solid black; */
+    
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+
+.gmail-btn{
+    height: 100px;
+    width: 100px;
+    background: url(../Contact/gmailpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    border-radius: 30%;
+    border: none;
+    outline: none;
+}
+
+.github-btn{
+    height: 100px;
+    width: 100px;
+    background: url(../Contact/githubpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 30%;
+    border: none;
+    outline: none;
+}
+
+.linkedin-btn{
+    height: 100px;
+    width: 100px;
+    background: url(../Contact/linkedinpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 30%;
+    border: none;
+    outline: none;
 }

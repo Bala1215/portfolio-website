@@ -1,10 +1,10 @@
 import React from 'react'
 import { Element } from 'react-scroll';
 import "../Project/Project1.css";
-import amazonclonepic from "./amazonclonepic.png";
+import ecommerce from "./ecommerce.jpg";
 import emojisearchpic from "./emojisearchpic.jpg";
 import googlekeepclonepic from "./googlekeepclonepic.png";
-import usermanagementpic from "./usermanagementpic.png";
+
 
 
 function Project1() {
@@ -14,38 +14,29 @@ function Project1() {
       
          
         <div className='project-card'>
-        <h1 className="project-title">amazon clone</h1>
-           <img src={amazonclonepic} 
-            alt="amazon clone" className='project-img'/>
+        <h1 className="project-title">Ecommerce Website</h1>
+           <img src={ecommerce}
+            alt="Ecommerce" className='project-img'/>
          
          
          <div className='project-info'>
-           <h1>amazon clone</h1>
-           <h3>technology used : <span>react js</span></h3>
-           <h4>Using useState and useEffect</h4>
+           <h1>Ecommerce Website</h1>
+           <h3>technology used : <span>vanilla js</span></h3>
+           {/* <h4>Using useState and useEffect</h4> */}
              <div className='project-info-btn'>
-               <button className='project-btn-1'>View Source Code</button>
-               <button className='project-btn-2'>View Project</button>
+               <a href="https://github.com/Bala1215/E-Commerce-Website"><button className='project-btn-1'>View Source Code</button></a>
+               <a href="https://effervescent-empanada-5e4150.netlify.app/"><button className='project-btn-2'>View Project</button></a>
              </div>
           </div>
         </div>
 
-        <div className='project-card'>
+        {/* <div className='project-card'>
            <h1 className="project-title">user management</h1>
            <img src={usermanagementpic} 
-            alt="user management" className='project-img'/>
+            alt="user management" className='project-img'/> */}
          
          
-         <div className='project-info'>
-           <h1>user management</h1>
-           <h3>technology used : <span>react js</span></h3>
-           <h4>Using useState and useEffect</h4>
-             <div className='project-info-btn'>
-               <button className='project-btn-1'>View Source Code</button>
-               <button className='project-btn-2'>View Project</button>
-             </div>
-          </div>
-        </div>
+       
 
         <div className='project-card'>
         <h1 className="project-title">google keep clone</h1>
@@ -58,8 +49,8 @@ function Project1() {
            <h3>technology used : <span>react js</span></h3>
            <h4>Using useState and useEffect</h4>
              <div className='project-info-btn'>
-               <button className='project-btn-1'>View Source Code</button>
-               <button className='project-btn-2'>View Project</button>
+               <a href='https://github.com/Bala1215/google-keep-clone'><button className='project-btn-1'>View Source Code</button></a>
+               <a href='https://649ff2d1de745111f97bd8a2--genuine-mochi-be97d5.netlify.app/'><button className='project-btn-2'>View Project</button></a>
              </div>
           </div>
         </div>
@@ -75,8 +66,8 @@ function Project1() {
            <h3>technology used : <span>react js</span></h3>
            <h4>Using useState and useEffect</h4>
              <div className='project-info-btn'>
-               <a><button className='project-btn-1'>View Source Code</button></a>
-               <a><button className='project-btn-2'>View Project</button></a>
+               <a href='https://github.com/Bala1215/emoji_search'><button className='project-btn-1'>View Source Code</button></a>
+               <a href='https://emoji-search-dun.vercel.app/'><button className='project-btn-2'>View Project</button></a>
              </div>
           </div>
         </div>
