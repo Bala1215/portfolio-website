@@ -1,8 +1,8 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import "../About/About.css";
-import  RESUME_BALA_CHELLAMMA_V from '../About/RESUME_BALA_CHELLAMMA_V.pdf';
-import  COVER_LETTER_BALA_CHELLAMMA_V from '../About/COVER_LETTER_BALA_CHELLAMMA_V.pdf';
+import  RESUME_BALA_CHELLAMMA_V from '../About/RESUME_BALA_CHELLAMMA.V_PDF.pdf';
+import  COVER_LETTER_BALA_CHELLAMMA_V from '../About/COVER_LETTER_BALA_CHELLAMMA.V_BEAMER_PDF.pdf';
 
 
 
