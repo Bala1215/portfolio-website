@@ -2,7 +2,6 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import "../About/About.css";
 import  RESUME_BALA_CHELLAMMA_V from '../About/RESUME_BALA_CHELLAMMA.V_PDF.pdf';
-import  COVER_LETTER_BALA_CHELLAMMA_V from '../About/COVER_LETTER_BALA_CHELLAMMA.V_BEAMER_PDF.pdf';
 
 
 
@@ -17,12 +16,12 @@ function About() {
           <h3>B.Sc Computer Science Graduate</h3>
           
           <div className='about__button'>
-            <a href={COVER_LETTER_BALA_CHELLAMMA_V}
+            {/* <a href={COVER_LETTER_BALA_CHELLAMMA_V}
                download="COVER_LETTER_BALA_CHELLAMMA-PDF-document"
                target="_blank"
                rel="noopener noreferrer">
               <button className='cv' >Cover Letter</button>
-            </a>  
+            </a>   */}
             <a href={RESUME_BALA_CHELLAMMA_V}
                download="RESUME_BALA_CHELLAMMA-PDF-document"
                target="_blank"
