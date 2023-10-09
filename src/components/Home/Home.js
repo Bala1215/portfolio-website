@@ -1,7 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import "../Home/Home.css";
-import Beagle from "../Home/beagle.png"
 
 
 
@@ -14,7 +13,6 @@ function Home() {
      </div> 
       
        <div className='home__img'>
-         <img src={Beagle} alt="img"/>
   
        </div>
 

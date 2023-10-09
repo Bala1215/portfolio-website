@@ -50,7 +50,7 @@ function Project1() {
            <h4>Using useState and useEffect</h4>
              <div className='project-info-btn'>
                <a href='https://github.com/Bala1215/google-keep-clone'><button className='project-btn-1'>View Source Code</button></a>
-               <a href='https://649ff2d1de745111f97bd8a2--genuine-mochi-be97d5.netlify.app/'><button className='project-btn-2'>View Project</button></a>
+               <a href='https://google-keep-clone-fawn.vercel.app/'><button className='project-btn-2'>View Project</button></a>
              </div>
           </div>
         </div>
